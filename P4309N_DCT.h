@@ -9,8 +9,9 @@
 #define YSS_MOD_SPI_TFT_LCD_P4309N_DCT__H_
 
 #include "ST6201/ST6201_qspi_with_Brush_RGB565.h"
+#include "ST6201/TurtleShip/TurtleShip.h"
 
-// 구매처 : https://ko.aliexpress.com/item/1005006485444769.html
+// Where to buy : https://ko.aliexpress.com/item/1005006485444769.html
 
 class P4309N_DCT : public ST6201_qspi_with_Brush_RGB565
 {
