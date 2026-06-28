@@ -8,7 +8,6 @@
 #include <config.h>
 #include "P4309N_DCT.h"
 #include "ST6201/TurtleShip/TurtleShip.h"
-#include <std_ext/malloc.h>
 #include <std_ext/string.h>
 
 error_t P4309N_DCT::initialize(config_t config)
