@@ -18,11 +18,11 @@ class P4309N_DCT : public ST6201_qspi_with_Brush_RGB565
 public :
 	P4309N_DCT(void);
 	
-	virtual error_t initialize(config_t config);
+	virtual error_t initialize(config_t config) override __attribute__((optimize("-O1")));
 
-	virtual Size getLcdSize(void); // pure
+	virtual Size getLcdSize(void) override __attribute__((optimize("-O1")));
 
-	virtual Size getCanvasSize(void);
+	virtual Size getCanvasSize(void) override __attribute__((optimize("-O1")));
 
 protected :
 };
